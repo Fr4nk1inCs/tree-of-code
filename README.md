@@ -25,7 +25,7 @@ nix develop -c pnpm build
 
 ## Deployment
 
-The app is deployed to GitHub Pages at <https://fr4nk1incs.github.io/tree-of-code/>. The **Deploy to GitHub Pages** workflow checks and builds every push to `main`, then publishes the static `dist` directory. It can also be run manually from the Actions tab.
+The app is deployed to GitHub Pages at <https://tree-of-code.fr4nk1in.top/>. The **Deploy to GitHub Pages** workflow checks and builds every push to `main`, then publishes the static `dist` directory. It can also be run manually from the Actions tab.
 
 ## Model and operations
 
