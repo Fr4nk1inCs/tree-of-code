@@ -1,0 +1,65 @@
+html,
+body,
+#root {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--toc-border);
+  border-radius: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.react-flow {
+  background-color: var(--toc-background);
+  background-image: radial-gradient(var(--toc-border) 0.8px, transparent 0.8px);
+  background-size: 22px 22px;
+}
+
+.react-flow__edge-path {
+  stroke: var(--toc-line);
+  stroke-width: 1.6;
+}
+
+.react-flow__node {
+  font-family: inherit;
+}
+
+.code-preview {
+  margin: 0;
+  padding: 10px 12px;
+  overflow: auto;
+  color: var(--toc-text);
+  background: var(--toc-editor);
+  font-family: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+  font-size: 12px;
+  line-height: 20px;
+  tab-size: 4;
+  white-space: pre;
+}
+
+.code-preview .mtk1,
+.code-preview .mtk2,
+.code-preview .mtk3,
+.code-preview .mtk4,
+.code-preview .mtk5,
+.code-preview .mtk6,
+.code-preview .mtk7,
+.code-preview .mtk8,
+.code-preview .mtk9 {
+  font-family: inherit;
+}
